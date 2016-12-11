@@ -36,7 +36,7 @@ public class LoginGeneratorTest {
         String pdur1 = this.loginGenerator.generateLoginForNomAndPrenom("Dùrand","Paul");
         assertEquals(pdur1,"PDUR1");
         assertEquals(true, this.loginService.loginExists(pdur1));
-        
+
         //test 4
         String jral2 = this.loginGenerator.generateLoginForNomAndPrenom("Ralling","John");
         assertEquals(jral2,"JRAL2");
