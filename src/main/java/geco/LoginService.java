@@ -21,7 +21,6 @@ public class LoginService {
         this.loginsExistants = new ArrayList<String>(Arrays.asList(loginsExistants));
         Collections.sort(this.loginsExistants);
     }
-
     /**
      * Verifie si un login existe deja
      *
